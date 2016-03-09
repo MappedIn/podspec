@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :http => "https://github.com/MappedIn/ios/releases/download/v0.1-alpha6/Framework.zip" }
   s.vendored_frameworks = "MappedIn.framework"
-  s.requires_arc = false
+  s.requires_arc = true
 end
