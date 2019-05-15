@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Commercial", :text => "MappedIn Copyright 2015" }
   s.authors       = { "Paul Bernhardt" => "paul@mappedin.ca" }
   s.platform     = :ios, "10.0"
-  s.source       = { :http => "https://github.com/MappedIn/ios/releases/download/v1.4.0/Mappedin.framework.zip" }
+  s.source       = { :http => "https://github.com/MappedIn/ios/releases/download/v1.4.1/Mappedin.framework.zip" }
   s.vendored_frameworks = "MappedIn.framework"
   s.requires_arc = true
 end
