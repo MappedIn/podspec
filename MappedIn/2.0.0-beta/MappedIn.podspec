@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "Commercial", :text => "MappedIn Copyright 2015" }
     s.authors       = { "Paul Bernhardt" => "paul@mappedin.ca" }
     s.platform     = :ios, "9.0"
-    #will change src once new franework is commited to github
-    s.source       = { :path => "/Users/youel/Documents/Work/ios-release/ios/MappedIn.xcframework" }
+    s.source       = { :git => "https://github.com/MappedIn/ios.git", :tag => s.version.to_s }
     s.dependency 'Mapbox-iOS-SDK', '5.2'
     s.dependency 'MappedinVenueFormat', '1.0.7'
     s.requires_arc = true
