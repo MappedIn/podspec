@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
     s.dependency 'MappedinVenueFormat', '1.0.7'
     s.requires_arc = true
     s.vendored_frameworks = 'MappedIn.xcframework'
+    s.swift_versions = '5.0.0'
   end
