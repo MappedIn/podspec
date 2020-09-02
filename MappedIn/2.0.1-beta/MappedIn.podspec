@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "Commercial", :text => "Mappedin Copyright 2015" }
     s.authors       = { "Paul Bernhardt" => "paul@mappedin.ca" }
     s.platform     = :ios, "11.0"
-    s.source       = { :http => "https://github.com/MappedIn/ios/releases/download/v2.0.1-beta/Mappedin.xcframework.zip" } 
+    s.source       = { :http => "https://github.com/MappedIn/ios/releases/download/v2.0.1-beta/Mappedin.xcframework.zip" }
     s.dependency 'Mapbox-iOS-SDK', '5.2'
     s.dependency 'MappedinVenueFormat', '1.0.7'
     s.requires_arc = true
